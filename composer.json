@@ -1,0 +1,27 @@
+{
+    "name": "mucts/string",
+    "description": "The MuCTS String package.",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*",
+        "voku/portable-ascii": "^1.5",
+        "mucts/macroable": "^1.0",
+        "mucts/contracts": "^1.0",
+        "mucts/collections": "^1.0",
+        "doctrine/inflector": "^2.0",
+        "ramsey/uuid": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "herry",
+            "email": "yuandeng@aliyun.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MuCTS\\String\\": "src/"
+        }
+    }
+}
